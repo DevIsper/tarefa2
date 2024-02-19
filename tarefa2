@@ -1,0 +1,45 @@
+Algoritmo PassoAPassoAcordar
+
+// Declaração de variáveis
+Var
+  despertador: lógico
+  lavarRosto: lógico
+  escovarDentes: lógico
+  vestirRoupa: lógico
+  tomarCafé: lógico
+
+Inicio
+  // Inicialização das variáveis
+  despertador <- Falso
+  lavarRosto <- Falso
+  escovarDentes <- Falso
+  vestirRoupa <- Falso
+  tomarCafé <- Falso
+
+  // Passo 1: Despertar com o despertador
+  despertador <- Verdadeiro
+  Escreva("1. Despertar com o despertador")
+
+  // Passo 2: Levantar da cama
+  Escreva("2. Levantar da cama")
+
+  // Passo 3: Lavar o rosto
+  lavarRosto <- Verdadeiro
+  Escreva("3. Lavar o rosto")
+
+  // Passo 4: Escovar os dentes
+  escovarDentes <- Verdadeiro
+  Escreva("4. Escovar os dentes")
+
+  // Passo 5: Vestir as roupas
+  vestirRoupa <- Verdadeiro
+  Escreva("5. Vestir as roupas")
+
+  // Passo 6: Tomar café da manhã
+  tomarCafé <- Verdadeiro
+  Escreva("6. Tomar café da manhã")
+
+  // Mensagem final
+  Escreva("Você está pronto para começar o dia!")
+
+FimAlgoritmo
